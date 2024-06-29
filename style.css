@@ -209,3 +209,92 @@ a{
 .member-details p{
     font-size: 15px;
 }
+
+/* blog-area */
+.blog-area .section-title h6{
+    padding-top: 40px;
+    font-size: 15px;
+}
+.blog-area .section-title p{
+    padding: 8px 0 0;
+}
+.blog-area .section-title span{
+    font-size: 10px;
+    cursor: pointer;
+}
+.blog-area .section-title span:hover{
+    color: #23aa9f;
+}
+.blog-content{
+    display: flex;
+}
+.blog-content img{
+    width: 50%;
+}
+.blog-content .form-area{
+    width: 50%;
+    margin: 0 auto;
+    padding: 5% 0 6% 8%;
+    background-image: url('images/bg3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog-content .form-area input{
+    width: 80%;
+    color: white;
+    padding-left: 0;
+    margin-bottom: 15px;
+    font-size: 12px;
+    border-radius: 0;
+    transition: .5s;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+.blog-content .form-area input::placeholder{
+    color: gray;
+    /* padding-left: 0; */
+}
+.blog-content .form-area textarea{
+    width: 80%;
+    border: none;
+    color: white;
+    outline: 0;
+    display: block;
+    font-size: 12px;
+    transition: .5s;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
+.blog-content .form-area input:focus,
+.blog-content .form-area textarea:focus{        
+    border-bottom: 1px solid rgb(14, 159, 255);
+}
+.blog-content .form-area button{
+    margin-top: 35px;
+    padding: 10px 30px;
+    background-color: black;
+}
+
+/* footer-area" */
+.footer-area{
+    color: white;
+    padding: 50px 0 30px;
+    background-color: #000415;
+    position: relative;
+}
+.footer-area p span{
+    font-size: 12px;
+}
+.footer-area p i{
+    margin-left: -20px;
+    padding-right: 5px;
+}
+.line-height{
+    width: 1px;
+    height: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
